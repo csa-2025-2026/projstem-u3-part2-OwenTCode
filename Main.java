@@ -76,7 +76,48 @@ public class Main
     }
 
     //Problem 5
+    System.out.println("Insert an int: ");
+    int woa = grr.nextInt();
+    Boolean woa2 = (woa%2==0);
+    Boolean woa3 = (woa%2==1);
     
+    if (woa2)
+    {
+      System.out.println("Even");
+
+    }
+    else if (woa3)
+    {
+      System.out.println("Odd");
+    }
+    
+    //problem 6
+    
+
+    //Problem 7
+    int min = 0;
+    int max = 50;
+
+    int min2 = 51;
+    int max2 = 100;
+
+    int was2 = min + (int)(Math.random() * ((max - min) + 1));
+    int was3 = min + (int)(Math.random() * ((max2 - min2) + 1));
+
+    System.out.println(was2 + " + " + was3 + " = ?");
+    int was4 = grr.nextInt();
+
+    if (was4 == (was2 + was3))
+    {
+      System.out.println("Correct!");
+    }
+    else
+    {
+      System.out.println("Wrong");
+    }
+
+    //Problem 8
+    System.out.println("No");
 
     /* ============= END SOLUTION ================================== */
     scan.close();
